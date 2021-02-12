@@ -37,7 +37,7 @@ img{
 .Header{
   text-align: center;
   font-size: larger;
-  padding: 20%;
+  padding: 2em 2em 2em;
   background-image: url(./images/4002676.jpg);
   background-repeat: no-repeat;
   color: whitesmoke;
