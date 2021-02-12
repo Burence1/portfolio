@@ -44,3 +44,36 @@ img{
 .Header span{
   color: grey;
 }
+
+.about{
+  margin: 0% 0% 10%;
+  padding: 0;
+  margin-top: 0;
+  font-size: large;
+}
+
+h2{
+  text-align: center;
+}
+
+.img1{
+  float: left;
+}
+
+pre{
+  text-align: center;
+}
+aside{
+  width: 25%;
+  margin-left: 5%;
+  float: right;
+  margin-bottom: 20%;
+  background-color:lightslategray;
+}
+.passion{
+  margin-bottom: 10%;
+  font-size: larger;
+}
+.academic{
+  text-align: center;
+}
