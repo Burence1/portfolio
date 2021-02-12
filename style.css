@@ -1,0 +1,46 @@
+html{
+  width: 100%;
+}
+body{
+  background-color: whitesmoke;
+}
+.navbar{
+  background: black;
+  padding: 0%;
+  overflow: hidden;
+}
+.navbar a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.8em;
+  text-decoration: none;
+}
+.nav a.right {
+  float: right;
+}
+
+a:hover{
+  background-color:dimgrey;
+  color: cornsilk;
+}
+
+
+img{
+  height: 14em;
+  width: 14em;
+  border-radius: 50%;
+}
+
+.Header{
+  text-align: center;
+  font-size: larger;
+  padding: 20%;
+  background-image: url(./images/4002676.jpg);
+  background-repeat: no-repeat;
+  color: whitesmoke;
+}
+.Header span{
+  color: grey;
+}
