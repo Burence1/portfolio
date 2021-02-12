@@ -1,5 +1,6 @@
 html{
   width: 100%;
+  scroll-behavior: smooth;
 }
 body{
   background-color: whitesmoke;
@@ -7,8 +8,9 @@ body{
 
 .navbar{
   background: black;
-  padding: 0%;
-  overflow: hidden;
+  padding-top: 0%;
+  margin-top: 0%;
+  overflow: auto;
 }
 .navbar a{
   float: left;
@@ -72,6 +74,7 @@ aside{
   background-color:lightslategray;
 }
 .passion{
+  margin-top: 15%;
   margin-bottom: 10%;
   font-size: larger;
 }
