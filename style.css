@@ -1,3 +1,18 @@
+@media only screen and(min-width:434px)and(max-width:900px){
+  .aside{
+    width: 50%;
+    float: right;
+  }
+  .hobbies, .hobby {
+    width: 50%;
+    float: left;
+  }
+  .hobby{
+    width: 50%;
+    float: right;
+  }
+}
+
 html{
   width: 100%;
   scroll-behavior: smooth;
