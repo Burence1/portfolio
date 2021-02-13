@@ -67,6 +67,7 @@ pre{
   text-align: center;
 }
 aside{
+  position: static;
   width: 25%;
   margin-left: 5%;
   float: right;
@@ -107,4 +108,11 @@ li{
   padding: 1em;
 }
 
-
+.gym{
+  padding-bottom: 5em;
+  margin-bottom: 5em;
+}
+ .review{
+   padding-top: 3%;
+   margin-top: 5em;
+ }
