@@ -67,6 +67,7 @@ pre{
   text-align: center;
 }
 aside{
+  position: static;
   width: 25%;
   margin-left: 5%;
   float: right;
@@ -74,12 +75,13 @@ aside{
   background-color:lightslategray;
 }
 .passion{
-  margin-top: 15%;
+  margin-top: 5%;
   margin-bottom: 10%;
   font-size: larger;
 }
 .academic{
   text-align: unset;
+  margin-bottom: 5em;
 }
 .TextWrap{
   float: left;
@@ -105,3 +107,4 @@ li{
   display: inline;
   padding: 1em;
 }
+ 
