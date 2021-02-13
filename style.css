@@ -71,7 +71,7 @@ aside{
   width: 25%;
   margin-left: 5%;
   float: right;
-  margin-bottom: 20%;
+  margin-bottom: 3%;
   background-color:lightslategray;
 }
 .passion{
@@ -107,4 +107,16 @@ li{
   display: inline;
   padding: 1em;
 }
- 
+ .hobbies{
+   padding: 0.2em;
+   float: left;
+   size: 5em 5em 5em;
+ }
+ .interest{
+   padding-bottom: 8em;
+   padding-left: 1.5em;
+   padding-right: 1.5em;
+ }
+ .hobby{
+   text-align: center;
+ }
