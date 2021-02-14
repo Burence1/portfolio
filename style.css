@@ -1,14 +1,17 @@
+/*imported fonts from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
 
 html{
   font-family: 'Zilla Slab', serif;
 }
+/*styling the navbar*/
 .navbar{
   background: black;
   padding-top: 0%;
   margin-top: 0%;
   overflow: auto;
 }
+/*styling the child elements of the navbar*/
 .navbar a{
   float: left;
   display: block;
@@ -17,14 +20,16 @@ html{
   padding: 0.8em;
   text-decoration: none;
 }
+/*floats the child elements in the navbar to the right*/
 .nav a.right {
   float: right;
 }
-
+/*modifies appearance whenever the cursor points at links*/
 a:hover{
   background-color:dimgrey;
   color: cornsilk;
 }
+/*styling the index.html header*/
 .Header{
   text-align: center;
   font-size: larger;
@@ -36,20 +41,22 @@ a:hover{
 .Header span{
   color: grey;
 }
-
+/*styling the about me section in the index.html*/
 .about{
   margin: 0% 0% 10%;
   padding: 0;
   margin-top: 0;
   font-size: large;
 }
-
+/*aligns h2 headings at the center in the entire project*/
 h2{
   text-align: center;
 }
+/*maintains text as it has been typed*/
 pre{
   text-align: center;
 }
+/*styling & creating a box model for the aside section hosting the Did you know?facts spot*/
 aside{
   position: static;
   width: 25%;
@@ -58,45 +65,75 @@ aside{
   margin-bottom: 3%;
   background-color:lightslategray;
 }
+/*craeting a box model for the why programming section via the class="passion"*/
 .passion{
   margin-top: 5%;
   margin-bottom: 10%;
   font-size: larger;
 }
+/*styling &creating a box model for the about me section via the class="academic"*/
 .academic{
   text-align: unset;
   margin-bottom: 5em;
 }
+/*modifies the contacts section via the class="Contacts"*/
 .Contacts{
   background-color: lightslategrey transparent;
   color: black;
   text-decoration: none;
 }
+/*styling the map presentation*/
 .map{
   float: left;
   width: 100%;
 }
+/*styling the images in the hobbies section*/
 .hobbies{
   padding: 0.2em;
   float: left;
   size: 5em 5em 5em;
 }
+.rest{
+  margin: 0.7em;
+  float: right;
+  height: 250px;
+}
+.porto{
+  margin: 0.7em;
+  float: left;
+  height: 250px;
+}
+.fit{
+  margin: 0.7em;
+  float: right;
+  height: 250px;
+}
+.vac{
+  margin: 0.7em;
+  float: left;
+  height: 250px;
+}
+/*creating a box model in the  know your developer section*/
 .interest{
   padding-bottom: 8em;
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
+/*styling the descriptions below the hobbies images*/
 .hobby{
   text-align: center;
 }
+/*styling the header in the projects.html*/
 .header2{
   background-color: rgb(31, 25, 25);
   color: whitesmoke;
   padding: 2em 2em 2em;
 }
+/*creating a box model in the gym section*/
 .gym{
   padding-bottom: 4em;
 }
+/*creating a box model in the reviews section*/
 .reviews{
   background-color: black;
   color: whitesmoke;
@@ -106,6 +143,7 @@ aside{
   padding-bottom: 0%;
   margin-bottom: 0%;
 }
+/*styling the avatar image*/
 .avat{
   height: 3em;
   border-radius: 50%;
@@ -113,19 +151,24 @@ aside{
   margin-left: 47%;
   margin-right: auto;
 }
+/*styling the review author's name*/
 .incognito{
   text-align: center;
   padding: 2em;
 }
+/*creating a box model for the portfolio project section*/
 .port{
   padding-bottom: 4em;
 }
+/*creating a box model for the moringa resort project section*/
 .resort{
   padding-bottom: 4em;
 }
+/*creating a box model for the Hawaii project section*/
 .Hawaii{
-  padding-bottom: 4em;
+  padding-bottom: 2em;
 }
+/*styling the skills.html header*/
 .header3{
   background-image: url(./images/header2.jpg);
   background-size: 100% 15em;
@@ -135,9 +178,41 @@ aside{
   text-align: center;
   color: whitesmoke;
 }
+/*creating a box models for the respective sections*/
 .software{
-  padding-top: 2em;
+  padding-top: 3em;
 }
+.hardware{
+  padding-bottom: 3em;
+}
+.blockchain{
+  padding-bottom: 3em;
+}
+.design{
+  padding-bottom: 3em;
+}
+/*classes for styling skills.html images*/
+.sft{
+  float: right;
+  padding: 0.7em;
+  height: 250px;
+}
+.hrd{
+  float: left;
+  padding: 0.7em;
+  height: 250px;
+}
+.block{
+  float: right;
+  padding: 0.7em;
+  height: 250px;
+}
+.des{
+  float: left;
+  padding: 0.7em;
+  height: 250px;
+}
+/*enhancing the website's responsiveness*/
 @media screen and (max-width: 650px) {
   .hobbies {
     width: 50%;
