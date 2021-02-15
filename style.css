@@ -45,7 +45,6 @@ a:hover{
 .about{
   margin: 0% 0% 10%;
   padding: 0;
-  margin-top: 0;
   font-size: large;
 }
 /*aligns h2 headings at the center in the entire project*/
@@ -213,21 +212,21 @@ aside{
   height: 250px;
 }
 /*enhancing the website's responsiveness*/
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .hobbies {
-    width: 50%;
+    width: 100%;
   }
   .aside{
     width: 100%;
-    display: none;
+    display:flex;
   }
   .Contacts{
     width: 85%;
   }
   body{
-     width: 100%;
+    width: 100%;
    }
   .pre{
-    text-align: left;
+    width: 50%;
   }
 }
