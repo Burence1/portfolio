@@ -55,15 +55,6 @@ h2{
 pre{
   text-align: center;
 }
-/*styling & creating a box model for the aside section hosting the Did you know?facts spot*/
-aside{
-  position: static;
-  width: 25%;
-  margin-left: 5%;
-  float: right;
-  margin-bottom: 1%;
-  background-color:lightslategray;
-}
 /*craeting a box model for the why programming section via the class="passion"*/
 .passion{
   margin-top: 5%;
@@ -214,10 +205,6 @@ aside{
 /*enhancing the website's responsiveness*/
 @media screen and (max-width: 600px) {
   .hobbies {
-    width: 100%;
-  }
-  .aside{
-    display: flex;
     width: 100%;
   }
   .Contacts{
