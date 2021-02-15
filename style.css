@@ -217,8 +217,8 @@ aside{
     width: 100%;
   }
   .aside{
+    display: flex;
     width: 100%;
-    display:flex;
   }
   .Contacts{
     width: 85%;
